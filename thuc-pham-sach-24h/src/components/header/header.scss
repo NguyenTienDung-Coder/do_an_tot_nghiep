@@ -1,0 +1,360 @@
+* {
+    box-sizing: border-box;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 200;
+}
+
+.container {
+    width: 100%;
+
+    .header-wrapper {
+        background-color: #428b16;
+        width: 100%;
+
+        .text {
+            max-width: 1170px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 38px;
+            font-size: 13px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+
+            .text-a {
+                color: white;
+                text-decoration: none;
+                align-self: center;
+            }
+
+            .av {
+                display: flex;
+                height: 38px;
+                .a-tai-khoan {
+                    padding-right: 10px;
+                    color: #fff;
+                }
+
+            }
+
+        }
+
+        .banner-hidden {
+            background-color: #51aa1b;
+            width: 100%;
+            height: 90px;
+            display: none;
+            justify-content: space-between;
+
+            .menu-hidden {
+                align-self: center;
+            }
+
+            .logo-hidden {
+                align-self: center;
+
+                a {
+                    img {
+                        max-width: 200px;
+                    }
+                }
+            }
+
+            .user-hidden {
+                align-self: center;
+            }
+
+        }
+
+        .banner {
+            background-color: #51aa1b;
+            width: 100%;
+
+            div {
+                max-width: 1170px;
+                margin: 0px auto;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                a {
+                    img {
+
+                        width: 200px;
+                    }
+                }
+
+                .form {
+                    align-self: center;
+                    position: relative;
+
+                    input {
+                        height: 40px;
+                        width: 400px;
+                        border: 1px solid rgb(255, 255, 255);
+                        border-radius: 50px;
+                        padding: 5px 20px;
+                        outline: none;
+                    }
+
+                    button {
+                        background-color: white;
+                        margin-left: -50px;
+                        border: none;
+                        border-radius: 50%;
+                        position: absolute;
+                        top: 18%;
+                        right: 1%;
+                        opacity: 50%;
+                        cursor: pointer;
+                    }
+                }
+
+                .contact {
+                    align-self: center;
+                    margin: 0;
+                    padding: 0;
+
+                    .icon-phone {
+                        align-items: center;
+                    }
+
+                    .straight {
+                        align-self: center;
+                        background-color: white;
+                        width: 1px;
+                        height: 40px;
+                        margin: 0px 10px;
+                    }
+
+                    .contact-line {
+                        align-self: center;
+
+                        a {
+                            color: white;
+                            text-decoration: none;
+
+                            span {
+                                font-size: 14px;
+                            }
+
+                            p {
+                                color: w;
+                                font-weight: 500;
+                                font-size: 16px;
+                                margin: 0px;
+                            }
+                        }
+                    }
+
+                    .bag {
+                        margin-left: 20px;
+                        align-self: center;
+                    }
+                }
+            }
+        }
+
+        .search-bar-hidden {
+            display: none;
+            padding: 0px 10px;
+            align-items: center;
+            width: 100%;
+            height: 40px;
+            background-color: #428b16;
+            color: white;
+            form {
+                position: relative;
+
+                .Inputbar {
+                    width: 100%;
+                    padding: 0px 12px;
+                    height: 25px;
+                    align-self: center;
+                    background-color: #77a058;
+                    border: solid 0px;
+                    border-radius: 12px;
+                    position: relative;
+                    outline: none;
+                    &::placeholder {
+                        color: white;
+                        opacity: 0.8;
+                        font-weight: lighter;
+                        font-size: 12px;
+                    }
+                }
+                button {
+                    position: absolute;
+                    top: 3%;
+                    right: 1%;
+                    border: none;
+                    background-color: #77a058;
+                    border-radius: 100%;
+                    height: 19px;
+                    opacity: 0.5;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .nav-bar {
+            width: 100%;
+            min-height: 43px;
+            background-color: #428b16;
+
+            .nav-left {
+                max-width: 1170px;
+                background-color: #428b16;
+                margin: 0px auto;
+                list-style-type: none;
+                color: white;
+                font-weight: 500;
+                display: flex;
+                flex-wrap: wrap;
+                padding: 0px;
+
+                li {
+
+                    padding: 15px 0px;
+                    margin: 0px 30px;
+                    position: relative;
+
+                    a {
+                        color: white;
+                        text-decoration: none;
+                    }
+
+                    a:hover {
+                        color: rgb(255, 176, 123);
+                        transition: 0.3s;
+                    }
+
+                    .product-menu {
+
+                        background-color: white;
+                        display: flex;
+                        border: solid 2px rgb(204, 202, 202);
+                        list-style-type: none;
+                        position: absolute;
+                        min-width: 840px;
+                        height: 370px;
+                        top: 49px;
+                        left: -350%;
+                        background-color: white;
+                        z-index: 101;
+                        text-align: start;
+                        padding: 25px 0px;
+                        display: none;
+
+                        .left {
+                            padding: 0px;
+                            width: 20%;
+                            margin: 0px;
+                        }
+
+                        a:hover {
+                            color: rgb(255, 176, 123);
+                            transition: 0.3s;
+                        }
+
+                        .product-menu {
+
+                            background-color: white;
+                            display: flex;
+                            border: solid 2px rgb(204, 202, 202);
+                            list-style-type: none;
+                            position: absolute;
+                            min-width: 840px;
+                            height: 370px;
+                            top: 49px;
+                            left: -350%;
+                            background-color: white;
+                            z-index: 101;
+                            text-align: start;
+                            padding: 25px 0px;
+                            display: none;
+
+                            .left {
+                                padding: 0px;
+                                width: 20%;
+                                margin: 0px;
+                            }
+
+                            .right {
+                                padding: 0px;
+                                width: 80%;
+                                margin: 0px;
+                            }
+
+                            li {
+                                padding: 10px 0px;
+
+                                ul {
+                                    margin: 0px auto;
+                                    list-style-type: none;
+                                    padding: 0px;
+
+                                    li {
+                                        margin: 0px;
+                                        padding: 10px 15px;
+
+                                        a {
+                                            color: #6d6d6d;
+                                            font-weight: 400;
+                                            font-size: 14px;
+                                        }
+                                    }
+
+                                    li:hover {
+                                        background-color: #f0eeee;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    li:hover .product-menu {
+                        display: flex;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width:850px) {
+    .container {
+        .header-wrapper {
+            .text {
+                display: none;
+            }
+
+            .banner {
+                display: none;
+            }
+
+            .nav-bar {
+                display: none;
+            }
+
+            .banner-hidden {
+                display: flex;
+                padding: 0px 10px;
+            }
+
+            .search-bar-hidden {
+                display: flex;
+                form{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

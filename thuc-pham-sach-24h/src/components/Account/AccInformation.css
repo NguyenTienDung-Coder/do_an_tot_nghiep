@@ -1,0 +1,92 @@
+
+.gap-colum {
+    background-color: #f7f7f7; 
+}
+.tai-khoan-nguoi-dung{
+    width: 1170px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+}
+
+.tai {
+    margin: 0;
+    text-transform: uppercase;
+    color: #292929;
+    font-size: 22px;
+    line-height: 1.2;
+}
+
+.sm {
+    color: #333333;
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.acc-name-p {
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 1px solid #51aa1b;
+    width: 80px;
+    padding-bottom: 10px;
+}
+
+.form-inf-acc { 
+    padding-top: 10px;
+    width: 970px;
+}
+
+.ten-name {
+    display: flex;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name-acc-one {
+    width: 200px;
+
+}
+.nhap-thong-tin {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ddd;
+    line-height: 35px;
+    padding-left: 5px;
+}
+
+.thay-mk {
+   text-transform: uppercase; 
+   font-weight: 600;
+}
+
+.updatePasswordBtn {
+    background-color: #51aa1b;
+    border: none;
+    padding: 10px 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.updatePasswordBtn:hover{
+    background-color: #438818;
+}
+
+.updateProfileBtn {
+    background-color: #51aa1b;
+    border: none;
+    padding: 10px 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.updateProfileBtn:hover{
+    background-color: #438818;
+}
